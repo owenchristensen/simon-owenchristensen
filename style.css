@@ -1,0 +1,98 @@
+/* General styling */
+body {
+  font-family: verdana, arial, sans-serif;
+  margin: 25em;
+  background-color: #f2f2f2;
+  color: black;
+  text-align: center;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+  text-align: center;
+}
+
+/* General button styling */
+button {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  font-family: verdana, arial, sans-serif;
+  background-color: green;
+  color: white;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 8px;
+  outline: none;
+  box-shadow: 0 9px black;
+}
+
+/* Hide start/stop buttons when selected */
+.hidden {
+  display: none;
+}
+
+/* Button 'pressing' animation */
+#gameButtonArea > button:active {
+  box-shadow: 0 5px black;
+  transform: translateY(4px);
+}
+
+/* Styling for buttons when idling */
+#button1 {
+  background: lightgreen;
+}
+
+#button2 {
+  background: lightblue;
+}
+
+#button3 {
+  background: pink;
+}
+
+#button4 {
+  background: lightyellow;
+}
+
+#button5 {
+  background: #ffa366;
+}
+
+#button6 {
+  background: white;
+}
+
+/* Styling for buttons while pressed */
+#button1:active,
+#button1.lit {
+  background: green;
+}
+
+#button2:active,
+#button2.lit {
+  background: blue;
+}
+
+#button3:active,
+#button3.lit {
+  background: red;
+}
+
+#button4:active,
+#button4.lit {
+  background: yellow;
+}
+
+#button5:active,
+#button5.lit {
+  background: #ff6600;
+}
+
+#button6:active,
+#button6.lit {
+  background: grey;
+}
